@@ -1,0 +1,13 @@
+// Minimal Prisma schema for CLI commands (Prisma v7)
+// Datasource URL is moved to `prisma.config.ts` for Prisma 7+.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+
+// Add your models below if you intend to use Prisma in this project.
